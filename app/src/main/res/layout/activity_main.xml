@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/blue_1">
+
+        <TextView
+            style="@style/LargeFontLabel"
+            android:layout_centerInParent="true"
+            android:text="首页"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试带下拉刷新的Fragment"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试图片选择"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试权限"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试Fragment"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试单类型RecycleView"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试多类型RecycleView"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+    <org.base.platform.view.UnifyButton
+        android:id="@+id/btn_7"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:text="测试ListView"
+        android:textColor="@color/white"
+        app:bgNormalColor="@color/orange_1"
+        app:bgPressedColor="@color/orange_2"
+        app:bgUnEnableColor="@color/grey_4"
+        app:cornerSize="8dp" />
+
+</LinearLayout>
